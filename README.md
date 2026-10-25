@@ -66,22 +66,28 @@ asynchronous-fifo-cdc/
 ├── README.md
 ├── .gitignore
 ├── rtl/
-│   └── async_fifo.v
+│   └── Async_fifo.v
 ├── testbench/
-│   ├── async_fifo_tb.v
-│   ├── async_fifo_tb.sv
-│   └── fifo_boundary_tb.sv
+│   ├── Asyncfifo_tb.v
+│   ├── Async_fifo_tb.sv
+│   └── fifobehavio_tb.sv
 ├── constraints/
-│   └── async_fifo.xdc
+│   └── Async_fifo.xdc
 ├── reports/
-│   ├── synthesis_utilization.txt
-│   └── timing_paths.txt
+│   ├── Async_fifo_clock_utilization_routed.rpt
+│   └── Async_fifo_timing_summary_routed.rpt
+|   |___ Async_fifo_utilization_placed.rpt
 └── screenshots/
-    ├── simulation_results.png
-    ├── synthesis_utilization.png
-    ├── synthesized_schematic.png
-    ├── implemented_device.png
-    └── timing_summary.png
+    ├── Simulation1_verilog.png
+    ├── Simulation2_SV.png
+    ├── Sim3_boundbehav_SV.png
+    ├── Implemented_device.png
+    └── Timing_summary.png
+    |__ Sim_result1.png
+    |__ Sim_result2_bound.png
+    |__ Synth_Utilization1.png
+    |__ Synth_Utilization2.png
+    |__ Synthesized_Schematic.png
 ```
 
 The filenames and folder contents should match the files actually included in the repository.
